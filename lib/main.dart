@@ -1,4 +1,3 @@
-
 import 'package:akademi_id/navigation/dashboard.dart';
 import 'package:akademi_id/screen/splashScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -7,12 +6,7 @@ import 'package:intl/date_symbol_data_local.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      options: FirebaseOptions(
-          apiKey: 'AIzaSyDwR3NqvJq9TdcKCFxuVzZAwmdOCZ5lN1A',
-          appId: '1:379964774311:android:f805135fe26f1d924c8882',
-          messagingSenderId: '379964774311',
-          projectId: 'akademiid-ebac8'));
+  await Firebase.initializeApp(options: FirebaseOptions());
   await initializeDateFormatting('id_ID', null);
   runApp(const MyApp());
 }
@@ -30,7 +24,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => SplashScreen(), 
+        '/': (context) => SplashScreen(),
         '/dashboard': (context) => Dashboard(),
         // Tambahkan rute lainnya di sini.
       },
