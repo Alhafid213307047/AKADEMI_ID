@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379964774311",
+    "project_id": "akademiid-ebac8",
+    "storage_bucket": "akademiid-ebac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379964774311:android:f805135fe26f1d924c8882",
+        "android_client_info": {
+          "package_name": "com.akademi_id.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwR3NqvJq9TdcKCFxuVzZAwmdOCZ5lN1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
